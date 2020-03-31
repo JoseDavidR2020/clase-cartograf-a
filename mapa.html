@@ -12,7 +12,7 @@
 
 <div id="mapid" style="width: 600px; height: 400px;"></div>
 <script>
-	var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+	var mymap = L.map('mapid').setView([4.636, -74.084], 13);
 
 	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 18,
@@ -24,8 +24,8 @@
 		zoomOffset: -1
 	}).addTo(mymap);
 
-	L.marker([51.5, -0.09]).addTo(mymap)
-		.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+	L.marker([4.636, -74.084]).addTo(mymap)
+		.bindPopup("<b>Mapa Bogotá!</b><br />I am a popup.").openPopup();
 
 	var popup = L.popup();
 
