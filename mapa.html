@@ -1,0 +1,43 @@
+  
+<! DOCTYPE html >
+< html >
+< cabeza >	
+	< título > Inicio rápido - Folleto </ título >
+	< meta  charset = " utf-8 " />
+	< meta  name = " viewport " content = " ancho = ancho del dispositivo, escala inicial = 1.0 " >
+	< link  rel = " icono de acceso directo " type = " image / x-icon " href = " docs / images / favicon.ico " />
+    < Enlace  rel = " hoja de estilo " href =" https://unpkg.com/leaflet@1.6.0/dist/leaflet.css " integridad =" sha512-XWE / Az9zrjBIphAcBb3F6JVqxf46 + CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ == " crossorigin ="" />
+    < Guión  src = " https://unpkg.com/leaflet@1.6.0/dist/leaflet.js " integridad =" sha512-gZwIG9x3wUXg2hdXF6 + rVkLF / 0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew == " crossorigin ="" > </ escritura >
+</ cabeza >
+< cuerpo >
+
+< div  id = " mapid " style = " ancho: 600 px; altura: 400 px; " > </ div >
+< guión >
+	var  myMap  =  L . mapa ( 'mapid' ) . setView ( [ 51.505 ,  - 0.09 ] ,  13 ) ;
+
+	L . tileLayer ( 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw' ,  {
+		maxZoom : 18 ,
+		atribución : 'Datos y copia del mapa; <a href="https://www.openstreetmap.org/"> contribuyentes de OpenStreetMap </a>, '  +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/"> CC-BY-SA </a>,'  +
+			'Imágenes © <a href="https://www.mapbox.com/"> Mapbox </a>' ,
+		id : 'mapbox / streets-v11' ,
+		tileSize : 512 ,
+		zoomOffset : - 1
+	} ) . addTo ( mymap ) ;
+
+	L . marcador ( [ 51.5 ,  - 0.09 ] ) . addTo ( mymap )
+		. bindPopup ( "<b> ¡Hola, mundo! </b> <br /> Soy una ventana emergente" ) . openPopup ( ) ;
+
+	var  emergente  =  L . popup ( ) ;
+
+	funcion  onMapClick ( e )  {
+		surgir
+			. setLatLng ( p . ej . latlng )
+			. setContent ( "Hiciste clic en el mapa en"  +  e . latlng . toString ( ) )
+			. openOn ( mymap ) ;
+	}
+
+	myMap . on ( 'clic' ,  onMapClick ) ;
+</ script >
+</ cuerpo >
+</ html >
