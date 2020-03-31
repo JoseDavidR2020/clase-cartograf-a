@@ -9,8 +9,6 @@ editar la forma del .md en clase
 
 editar
 
-esto es una *negrilla*
-presenta guiones bajos  **guion bajo**
+esto es una  **negrilla**
 
-*lista1
-*lista 2
+*1. primer ejemplo
