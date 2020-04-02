@@ -9,3 +9,4 @@ esto es una  **negrilla**
 Inline-style: 
 ![Crear imagen Mundo](https://www.elindependiente.com/wp-content/uploads/2020/03/coronavirus-mundo.jpg "Logo Mundo Covid_19")
 
+![trump](pantallazo.png "ejemplo visual studio code")
