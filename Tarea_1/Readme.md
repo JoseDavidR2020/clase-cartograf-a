@@ -18,7 +18,7 @@ Porque los mapas permiten identificar gráficamente la distribución del materia
 
 ## 3. Descripción de la solución propuesta
 
-El MAPA DE CALIDAD DEL AIRE permite representar la distribución de los valores monitoreados en las 13 estaciones de calidad del aire, con que cuenta la RMCA para Bogotá. La normatividad ambiental cita un código de colores de acuerdo a los valores obtenidos, tal como se muestra a continuación.
+El MAPA DE CALIDAD DEL AIRE permite representar la distribución de los valores monitoreados en las 13 estaciones de calidad del aire de la RMCA para Bogotá. La normatividad ambiental cita un código de colores de acuerdo a los valores obtenidos, tal como se muestra a continuación.
 
 ### Por qué establecer la calidad del aire con el PM2.5
 
