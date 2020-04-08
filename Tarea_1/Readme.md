@@ -42,6 +42,9 @@ A continuación, se muestra un cuadro que define los puntos de corte para los va
 
 ### Localidades de Bogotá
 **Proveedor:** Plataforma distrital de Datos Abiertos
+
 **Descripción del conjunto de datos:** El mapa abarca las 20 localidades del distrito capital con un atributo de área por localidad
+
 **Descripción de atributos:** El mapa contiene las áreas de las localidades con su respectivo nombre. 
+
 **Enlace para descarga:** https://datosabiertos.bogota.gov.co/dataset/localidad-bogota-d-c
