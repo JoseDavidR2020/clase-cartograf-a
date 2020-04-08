@@ -29,7 +29,7 @@ Este contaminante es uno de los más nocivos para la salud humana, ya que está 
 A continuación, se muestra un cuadro que define los puntos de corte para los valores del contaminante y se asocia un código de colores atribuido a una serie de efectos sobre la salud humana:
 
 | PM2.5 (μg/m3)|  Color  |      Categoría      |                            Efectos                           |
-|     :---:    |  :---:  |        :---:        |                             :---                             |
+|     :---:    |  :---:  |        :---:        |                             :---:                            |
 |    0 - 12    |  Verde  |        Buena        |La contaminación supone un riesgo bajo para la salud          |
 |    13 - 37   | Amarillo|      Aceptable      |Posibles síntomas respiratorios en poblacion sensible         |
 |    38 - 55   | Naranja |Dañina a grupos sens.|Grupos poblaciones sensibles pueden presentar efectos en salud|
