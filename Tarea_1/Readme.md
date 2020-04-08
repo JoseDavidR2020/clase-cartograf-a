@@ -3,7 +3,7 @@
 
 ## ESTADO DE CALIDAD DEL AIRE EN BOGOTÁ PARA EL AÑO 2020
 
-Mapa web con el estado de calidad del aire para Bogotá, según los datos diarios de PM2.5 reportados por la red de monitoreo de calidad del aire (RMCA) de la secretaria distrital de ambiente(SDA).
+Mapa web con el estado de calidad del aire para Bogotá, según los datos diarios de PM2.5 reportados por la red de monitoreo de calidad del aire (RMCAB) de la secretaria distrital de ambiente(SDA).
 
 
 ## 1. ¿Cuál es el problema a tratar?
@@ -18,7 +18,7 @@ Porque los mapas permiten identificar gráficamente la distribución del materia
 
 ## 3. Descripción de la solución propuesta
 
-El MAPA DE CALIDAD DEL AIRE permite representar la distribución de los valores monitoreados en las 13 estaciones de calidad del aire de la RMCA para Bogotá. La normatividad ambiental cita un código de colores de acuerdo a los valores obtenidos, tal como se muestra a continuación.
+El MAPA DE CALIDAD DEL AIRE permite representar la distribución de los valores monitoreados en las 13 estaciones de calidad del aire de la RMCAB. La normatividad ambiental cita un código de colores de acuerdo a los valores obtenidos, tal como se muestra a continuación.
 
 ### 3.1 Por qué establecer la calidad del aire con el PM2.5
 
@@ -32,7 +32,7 @@ A continuación, se muestra un cuadro que define los puntos de corte para los va
 |     :---:    |  :---:  |        :---:        |                             :---                             |
 |    0 - 12    |  Verde  |        Buena        |La contaminación supone un riesgo bajo para la salud          |
 |    13 - 37   | Amarillo|      Aceptable      |Posibles síntomas respiratorios en poblacion sensible         |
-|    38 - 55   | Naranja |     Dañina a GS     |Grupos poblaciones sensibles pueden presentar efectos en salud|
+|    38 - 55   | Naranja |Dañina a grupos sens.|Grupos poblaciones sensibles pueden presentar efectos en salud|
 |   56 - 150   |  Rojo   |  Dañina a la salud  |Todos los individuos pueden experimentar efectos en salud     |
 |  151 - 250   | Purpura |Muy Dañina a la salud|Estado de alerta que significa en todos efecto grave en salud |
 |  251 - 500   |  Verde  |      Peligrosa      |Advertencia sanitaria. Efectos adversos graves en la salud    |
