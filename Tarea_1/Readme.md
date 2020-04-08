@@ -20,11 +20,11 @@ Porque los mapas permiten identificar gráficamente la distribución del materia
 
 El MAPA DE CALIDAD DEL AIRE permite representar la distribución de los valores monitoreados en las 13 estaciones de calidad del aire de la RMCA para Bogotá. La normatividad ambiental cita un código de colores de acuerdo a los valores obtenidos, tal como se muestra a continuación.
 
-### Por qué establecer la calidad del aire con el PM2.5
+### 3.1 Por qué establecer la calidad del aire con el PM2.5
 
 Este contaminante es uno de los más nocivos para la salud humana, ya que está asociado a enfermedades cardiacas y pulmonares, además de cáncer.
 
-### Valor
+### 3.2 Valores del contaminante
 
 A continuación, se muestra un cuadro que define los puntos de corte para los valores del contaminante y se asocia un código de colores atribuido a una serie de efectos sobre la salud humana:
 
@@ -40,7 +40,7 @@ A continuación, se muestra un cuadro que define los puntos de corte para los va
 
 ## 4. Listado detallado de las fuentes de datos seleccionadas
 
-### Localidades de Bogotá
+### 4.1 Localidades de Bogotá
 **Proveedor:** Plataforma distrital de Datos Abiertos
 
 **Descripción del conjunto de datos:** El mapa abarca las 20 localidades del distrito capital con un atributo de área por localidad
@@ -48,3 +48,21 @@ A continuación, se muestra un cuadro que define los puntos de corte para los va
 **Descripción de atributos:** El mapa contiene las áreas de las localidades con su respectivo nombre. 
 
 **Enlace para descarga:** https://datosabiertos.bogota.gov.co/dataset/localidad-bogota-d-c
+
+### 4.2 Valores Medidos de PM2.5
+**Proveedor:** Secretaria Distrital de Ambiente
+
+**Descripción del conjunto de datos:** Valores de PM2.5  a interpolar mediante un método definido según aplique el tipo de datos.
+
+**Descripción de atributos:** Valores diarios del contaminante por estación de monitoreo. 
+
+**Enlace para descarga:** http://rmcab.ambientebogota.gov.co/report/MonitorReport
+
+### 4.3 Ubicación de las estaciones de monitoreo
+**Proveedor:** Secretaria Distrital de Ambiente
+
+**Descripción del conjunto de datos:** Ubicación  e identificación de las estaciones.
+
+**Descripción de atributos:** Describe la localización geográfica, nombre y altitud de las estaciones. 
+
+**Enlace para descarga:** http://ambientebogota.gov.co/web/sda/estaciones-rmcab
