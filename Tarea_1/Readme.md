@@ -18,7 +18,7 @@ Porque los mapas permiten identificar gráficamente la distribución del materia
 
 ## 3. Descripción de la solución propuesta
 
-El MAPA DE CALIDAD DEL AIRE permite representar la distribución de las concentraciones monitoreadas en las 13 estaciones de calidad del aire con las que cuenta la RMCA para Bogotá. La normatividad ambiental cita un código de colores de acuerdo a los valores medidos, tal como se muestra a continuación.
+El MAPA DE CALIDAD DEL AIRE permite representar la distribución de los valores monitoreados en las 13 estaciones de calidad del aire, con que cuenta la RMCA para Bogotá. La normatividad ambiental cita un código de colores de acuerdo a los valores obtenidos, tal como se muestra a continuación.
 
 ### Por qué establecer la calidad del aire con el PM2.5
 
@@ -41,10 +41,7 @@ A continuación, se muestra un cuadro que define los puntos de corte para los va
 ## 4. Listado detallado de las fuentes de datos seleccionadas
 
 ### Localidades de Bogotá
-*Proveedor:* Plataforma distrital de Datos Abiertos
-
-*Descripción del conjunto de datos:* El mapa abarca las 20 localidades del distrito capital con un atributo de área por localidad
-
-* Descripción de atributos:* El mapa contiene las áreas de las localidades con su respectivo nombre. 
-
-*Enlace para descarga:* https://datosabiertos.bogota.gov.co/dataset/localidad-bogota-d-c
+**Proveedor:** Plataforma distrital de Datos Abiertos
+**Descripción del conjunto de datos:** El mapa abarca las 20 localidades del distrito capital con un atributo de área por localidad
+**Descripción de atributos:** El mapa contiene las áreas de las localidades con su respectivo nombre. 
+**Enlace para descarga:** https://datosabiertos.bogota.gov.co/dataset/localidad-bogota-d-c
